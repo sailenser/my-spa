@@ -1,7 +1,8 @@
 import axios from 'axios';
 import { getAccessToken, setTokens, cleanTokensData } from '@/utils/tokens';
 
-const baseURL = 'http://localhost:4052/';
+// const baseURL = 'http://localhost:4052/';
+const baseURL = 'https://api-store-spa.fronterbest.ru/';
 const instance = axios.create({
     baseURL,
     timeout: 10000,
